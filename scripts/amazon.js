@@ -86,7 +86,14 @@ else{
 
   });
 }
- console.log(cart)
+
+let cartQuantity=0;
+cart.forEach((item)=>{
+cartQuantity+=item.quantity;
+
+});
+// Update cart
+document.querySelector('.js-cart-quantity').innerHTML=cartQuantity;
 });
 
 });
