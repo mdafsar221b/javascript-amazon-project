@@ -68,6 +68,7 @@ import { renderPaymentSummary } from './paymentSummary.js';
 `;
 
     });
+    
 
     function deliveryOptionHTML (matchingProduct,cartItem){
 
