@@ -54,6 +54,28 @@ extraInfoHTML(){
 }
 
 }
+/* const date=new Date();
+console.log(date);
+date.toLocaleTimeString();
+console.log(date.toLocaleTimeString()) 
+function logThis(){
+console.log(this);
+}
+logThis();
+logThis.call('hello') //hello
+
+this 
+const object3={
+method:()=> {
+  console.log(this);
+  }
+};
+object3.method(); //undefined
+
+*/
+
+
+
 //Convert Objects into class array
 export const products = [
   {
