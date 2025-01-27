@@ -74,6 +74,22 @@ object3.method(); //undefined
 
 */
 
+// export let products =[];
+// export function loadProducts(){
+//   const xhr=new XMLHttpRequest();
+//  xhr.addEventListener('load', ()=>{
+//   products =JSON.parse(xhr.responseText).map((productDetails)=>{
+//     if(productDetails.type==='clothing'){
+//       return new Clothing(productDetails)
+//     }
+//     return new Product(productDetails);
+//  });
+// });
+
+//   xhr.open('GET','https://supersimplebackend.dev/products');
+//   xhr.send();
+// }
+
 
 
 //Convert Objects into class array
