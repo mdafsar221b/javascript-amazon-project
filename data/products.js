@@ -75,6 +75,7 @@ object3.method(); //undefined
 */
 
 export let products =[];
+
 export function loadProducts(fun){
   const xhr=new XMLHttpRequest();
 
