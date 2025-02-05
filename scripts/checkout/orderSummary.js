@@ -24,6 +24,11 @@ import { renderPaymentSummary } from './paymentSummary.js';
 
 
     cartSummaryHTML+= `
+     <div>
+        Checkout (<a class="return-to-home-link js-return-to-home-link"
+                    href="index.html" id="cart-item-count"></a>)
+        
+      </div>
     <div class="cart-item-container
     js-cart-item-container 
     js-cart-item-container-${matchingProduct.id}">

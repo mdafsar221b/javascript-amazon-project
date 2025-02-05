@@ -66,7 +66,7 @@ products.forEach((product) =>{
 });
 document.querySelector('.js-products-grid')
 .innerHTML=productsHTML;
- function updateCartQuantity(className){
+   function updateCartQuantity(className){
   let cartQuantity=0;
   cart.forEach((cartItem)=>{
   cartQuantity+=cartItem.quantity;
@@ -86,7 +86,6 @@ button.addEventListener('click', ()=>{
 
 addToCart(productId);
 updateCartQuantity('.js-cart-quantity');
-updateCartQuantity('.js-return-to-home-link')
 
 
 
